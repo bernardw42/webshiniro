@@ -62,7 +62,7 @@ const Service = () => {
             </Transition>
           ))}
         </div>
-        <div className="flex bg-[#F9F9F9] w-full justify-between gap-y-[10px] items-center flex-col pt-[150px] pb-[150px] min-h-[510px]" ref={textRef}>
+        <div className="flex bg-[#F9F9F9] w-full justify-between gap-y-[15px] items-center flex-col pt-[150px] pb-[150px] min-h-[510px]" ref={textRef}>
             <h1 className={`font-semibold text-[25px] max-w-6xl text-[#5569B2] px-6 transition-all duration-1000 delay-[2000ms] ${textInView ? 'opacity-100' : 'opacity-0'}`}>
                 GROW TRAFFIC & INCREASE REVENUE
             </h1>

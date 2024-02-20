@@ -2,7 +2,10 @@
 import withVideos from 'next-videos';
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    output:'export',
+    images: { unoptimized: true }
+};
 
 // Use the 'withVideos' function in the configuration
 export default withVideos(nextConfig);
